@@ -20,6 +20,8 @@
 body {
     background-color: hsl(0, 100%, 98%);
     min-width: 320px;
+
+    position: relative;
 }
 
 img {
@@ -150,6 +152,13 @@ button:active {
 }
 
 /* attribution */
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
