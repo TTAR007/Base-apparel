@@ -86,8 +86,29 @@ input {
     background: none;
 }
 
+.red-border {
+    border: 2px solid var(--red);
+}
+
 input::placeholder {
     color: var(--pink);
+}
+
+.error-icon {
+    width: 24px;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    transform: translateY(-50%);
+}
+
+.error-message {
+    color: var(--red);
+    font-size: clamp(0.9rem, 0.765rem + 0.576vw, 1.125rem);
+
+    position: absolute;
+    bottom: -1.5rem;
+    left: 1.5rem;
 }
 
 button {
